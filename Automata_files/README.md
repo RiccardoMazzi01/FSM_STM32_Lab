@@ -34,7 +34,11 @@ Now, on the lef list, click "Connectivity", "USART1" and select the "Asynchronou
 
 These pins are for the serial communication.
 
-- Finally, on the left side of the board, click the "PC0" pin and set it to "GPIO_Output"; do the same thing also with "PC1" and "PC2" pins. these three pins are for the LEDs.
+- Finally, on the left side of the board, click the "PC0" pin and set it to "GPIO_Output"; do the same thing also with "PC1" and "PC2" pins.
+ 
+![](https://github.com/RiccardoMazzi01/FSM_STM32_Lab/blob/main/images/LEDs.png) 
+ 
+These three pins are for the LEDs.
 
 Save and wait for the code generation.
 
@@ -42,8 +46,18 @@ Now return to the "Automata_files" folder. In this folder you will find 2 sub-fo
 
 - "FSM" folder: In this folder you will find 2 files (FSM.c and FSM.h): you must put "FSM.c" in the "Src" folder of your project following this path "YOUR_PROJECT/Core/Src"; after that, you have to put "FSM.h" in the "Inc" folder of your project following this path "YOUR_PROGECT/Core/Inc".
 
+![](https://github.com/RiccardoMazzi01/FSM_STM32_Lab/blob/main/images/fsm.png)
+
 - "runtime" folder: you will se another folder called "STM32" and a file named "runtime.h"; move the "runtime.h" file in the "Inc" folder of your project ("YOUR_PROJECT/Core/Inc"). Now open the "STM32" folder; there will be 3 files: you have to move "runtime.c" and "liquidcrystal_i2c.c" in the "Src" folder ("YOUR_PROJECT/Core/Src"); then put the last file "liquidcrystal_i2c.h" in the "inc" folder ("YOUR_PROJECT/Core/Inc").
 
-- "main.c" file: open the file in an editor; you'll see that there are two includes (#include "runtime.h", #include "FSM.h"): copy and paste them below the #include "main.h" into the "main.c" of your IDE project at this path "YOUR_PROJECT/Core/Src/main.c". After that, copy and paste the code between the "USER CODE BEGIN 2" and "USER CODE END 2" lines into the respective lines of the "main.c" of your project.
+![](https://github.com/RiccardoMazzi01/FSM_STM32_Lab/blob/main/images/runtime.png)
+
+- "main.c" file: open the file in an editor; you'll see that there are two includes (#include "runtime.h", #include "FSM.h"): copy and paste them below the #include "main.h" into the "main.c" of your IDE project at this path "YOUR_PROJECT/Core/Src/main.c".
+
+![](https://github.com/RiccardoMazzi01/FSM_STM32_Lab/blob/main/images/includes.png)
+
+After that, copy and paste the code between the "USER CODE BEGIN 2" and "USER CODE END 2" lines into the respective lines of the "main.c" of your project.
+
+![](https://github.com/RiccardoMazzi01/FSM_STM32_Lab/blob/main/images/user_code_2.png)
 
 Now you're ready to go! Click the "Run" button and enjoy your semaphore!
