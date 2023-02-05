@@ -1,5 +1,5 @@
-#include "runtime_Inc/runtime.h"
-#include "FSM_inc/FSM.h"
+#include "runtime.h"
+#include "FSM.h"
 
 int main() {
     /* USER CODE BEGIN 2 */
