@@ -1,6 +1,8 @@
 This is the folder to setup the FSM into your project!
 First of all, open your project with the STM32CubeIDE; now open the "YOUR_PROJECT.ioc" file. You will see the board with all the pins. Click the "Pinout" menu, then click "clear pinouts" and then "yes". Now all the pins are resetted and we can activate the pins we need.
 
+First of all, zoom in, click on the "PB8" pin and select "I2C1_SCL"; now click the "PB9" pin and select "I2C1_SDA". These two pins are for the LCD Screen.
+
 In this folder you will find 2 sub-folders and a "main.c" file:
 
 - "FSM" folder: In this folder you will find 2 files (FSM.c and FSM.h): you must put "FSM.c" in the "Src" folder of your project following this path "YOUR_PROJECT/Core/Src"; after that, you have to put "FSM.h" in the "Inc" folder of your project following this path "YOUR_PROGECT/Core/Inc".
