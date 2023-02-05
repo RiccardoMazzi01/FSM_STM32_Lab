@@ -46,7 +46,7 @@ These three pins are for the LEDs.
 
 Set the Clock Source to "Internal Clock".
 
-![]()
+![](https://github.com/RiccardoMazzi01/FSM_STM32_Lab/blob/main/images/tim2_on.png)
 
 ## Save and wait for the code generation.
 
