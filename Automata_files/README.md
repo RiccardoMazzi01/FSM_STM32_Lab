@@ -40,7 +40,7 @@ These pins are for the serial communication.
  
 These three pins are for the LEDs.
 
-Save and wait for the code generation.
+## Save and wait for the code generation.
 
 Now return to the "Automata_files" folder. In this folder you will find 2 sub-folders and a "main.c" file to set into your project:
 
@@ -60,4 +60,4 @@ After that, copy and paste the code between the "USER CODE BEGIN 2" and "USER CO
 
 ![](https://github.com/RiccardoMazzi01/FSM_STM32_Lab/blob/main/images/user_code_2.png)
 
-Now you're ready to go! Click the "Run" button and enjoy your semaphore!
+## Now you're ready to go! Click the "Run" button and enjoy your semaphore!
