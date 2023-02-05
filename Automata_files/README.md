@@ -1,4 +1,4 @@
-##This is the folder to setup the FSM into your project!
+## This is the folder to setup the FSM into your project!
 Before starting, connect the board, the LCD screen and the LEDs as the scheme below:
 
 
