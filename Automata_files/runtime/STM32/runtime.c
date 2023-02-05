@@ -1,5 +1,5 @@
-#include "runtime_Inc/runtime.h"
-#include "runtime_Inc/liquidcrystal_i2c.h"
+#include "runtime.h"
+#include "liquidcrystal_i2c.h"
 
 extern UART_HandleTypeDef huart1;
 
