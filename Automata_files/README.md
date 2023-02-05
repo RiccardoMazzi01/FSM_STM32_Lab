@@ -1,7 +1,7 @@
 # This is the folder to setup the FSM into your project!
 Before starting, connect the board, the LCD screen and the LEDs as the scheme below:
 
-
+![](https://github.com/RiccardoMazzi01/FSM_STM32_Lab/blob/main/images/scheme.jpg)
 
 First of all, create your project with the STM32CubeIDE: select your board and click "Next"; then choose a name and click "Finish". Now you will see the "YOUR_PROJECT.ioc" file, if not, open it. You will see the board with all the pins.
 
