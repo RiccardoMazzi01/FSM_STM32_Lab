@@ -12,3 +12,8 @@ the istructions to move the files in the right folders of the project.
 The semaphore follows this FSM scheme:
 
 ![](https://github.com/RiccardoMazzi01/FSM_STM32_Lab/blob/main/images/FSM.PNG)
+
+- S0 = GREEN LIGHT
+- S1 = YELLOW LIGHT
+- S2 = RED LIGHT
+- S3 = FLASHING YELLOW LIGHT
