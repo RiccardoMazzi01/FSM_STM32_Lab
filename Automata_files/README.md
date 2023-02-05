@@ -1,4 +1,7 @@
-In this folder you will find 2 sub-folders:
+This is the folder to setup the FSM into your project!
+First of all, open your project with the STM32CubeIDE; now open the "YOUR_PROJECT.ioc" file.
+
+In this folder you will find 2 sub-folders and a "main.c" file:
 
 - "FSM" folder: In this folder you will find 2 files (FSM.c and FSM.h): you must put "FSM.c" in the "Src" folder of your project following this path "YOUR_PROJECT/Core/Src"; after that, you have to put "FSM.h" in the "Inc" folder of your project following this path "YOUR_PROGECT/Core/Inc".
 
