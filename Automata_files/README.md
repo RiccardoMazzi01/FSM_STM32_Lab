@@ -3,7 +3,9 @@ Before starting, connect the board, the LCD screen and the LEDs as the scheme be
 
 
 
-First of all, create your project with the STM32CubeIDE: select your board and click "Next"; then choose a name and click "Finish". Now you will see the "YOUR_PROJECT.ioc" file, if not, open it. You will see the board with all the pins. Click the "Pinout" menu, then click "clear pinouts" and then "yes". Now all the pins have been resetted and we can activate the pins we need.
+First of all, create your project with the STM32CubeIDE: select your board and click "Next"; then choose a name and click "Finish". Now you will see the "YOUR_PROJECT.ioc" file, if not, open it. You will see the board with all the pins.
+![](https://github.com/RiccardoMazzi01/FSM_STM32_Lab/blob/main/images/ioc.png)
+Click the "Pinout" menu, then click "clear pinouts" and then "yes". Now all the pins have been resetted and we can activate the pins we need.
 
 - First of all, zoom in, click on the "PB8" pin and select "I2C1_SCL"; now click the "PB9" pin and select "I2C1_SDA". Now, on the left list, click on "Connectivity", then "I2C1" and set it to "I2C". These two pins are for the LCD Screen.
 
