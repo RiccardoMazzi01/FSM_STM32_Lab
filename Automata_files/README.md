@@ -1,4 +1,4 @@
-## This is the folder to setup the FSM into your project!
+# This is the folder to setup the FSM into your project!
 Before starting, connect the board, the LCD screen and the LEDs as the scheme below:
 
 
@@ -60,4 +60,4 @@ After that, copy and paste the code between the "USER CODE BEGIN 2" and "USER CO
 
 ![](https://github.com/RiccardoMazzi01/FSM_STM32_Lab/blob/main/images/user_code_2.png)
 
-## Now you're ready to go! Click the "Run" button and enjoy your semaphore!
+# Now you're ready to go! Click the "Run" button and enjoy your semaphore!
