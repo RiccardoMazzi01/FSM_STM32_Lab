@@ -28,17 +28,25 @@ These two pins are for the LCD Screen.
 
 ![](https://github.com/RiccardoMazzi01/FSM_STM32_Lab/blob/main/images/usart_yellow.png)
 
-Now, on the lef list, click "Connectivity", "USART1" and select the "Asynchronous" mode.
+Now, on the left list, click "Connectivity", "USART1" and select the "Asynchronous" mode.
 
 ![](https://github.com/RiccardoMazzi01/FSM_STM32_Lab/blob/main/images/usart_green.png)
 
 These pins are for the serial communication.
 
-- Finally, on the left side of the board, click the "PC0" pin and set it to "GPIO_Output"; do the same thing also with "PC1" and "PC2" pins.
+- Then, on the left side of the board, click the "PC0" pin and set it to "GPIO_Output"; do the same thing also with "PC1" and "PC2" pins.
  
 ![](https://github.com/RiccardoMazzi01/FSM_STM32_Lab/blob/main/images/LEDs.png) 
  
 These three pins are for the LEDs.
+
+- Finally, again on the left list go to the "Timers" section and click on "TIM2":
+
+![]()
+
+Set the Clock Source to "Internal Clock".
+
+![]()
 
 ## Save and wait for the code generation.
 
