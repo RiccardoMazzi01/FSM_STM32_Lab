@@ -1,5 +1,5 @@
 This is the folder to setup the FSM into your project!
-First of all, open your project with the STM32CubeIDE; now open the "YOUR_PROJECT.ioc" file.
+First of all, open your project with the STM32CubeIDE; now open the "YOUR_PROJECT.ioc" file. You will see the board with all the pins. Click the "Pinout" menu, then click "clear pinouts" and then "yes". Now all the pins are resetted and we can activate the pins we need.
 
 In this folder you will find 2 sub-folders and a "main.c" file:
 
