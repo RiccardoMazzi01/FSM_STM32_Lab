@@ -8,3 +8,7 @@ the istructions to move the files in the right folders of the project.
 - The "automata_IDE_project" folder contains a full project with all the files ready to run on a board.
 
 - The "images" folder contains the screenshots for the "README.md" file (ignore it).
+
+The semaphore follows this FSM scheme:
+
+![](https://github.com/RiccardoMazzi01/FSM_STM32_Lab/blob/main/images/FSM.PNG)
