@@ -1,5 +1,5 @@
-#include "FSM_Inc/FSM.h"
-#include "runtime_Inc/runtime.h"
+#include "FSM.h"
+#include "runtime.h"
 
 int nextState(int currState, char input)
 {
