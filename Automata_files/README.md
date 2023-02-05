@@ -40,7 +40,7 @@ These pins are for the serial communication.
  
 These three pins are for the LEDs.
 
-- Finally, again on the left list go to the "Timers" section and click on "TIM2":
+- Finally, again on the left list, go to the "Timers" section and click on "TIM2":
 
 ![](https://github.com/RiccardoMazzi01/FSM_STM32_Lab/blob/main/images/tim2_off.png)
 
