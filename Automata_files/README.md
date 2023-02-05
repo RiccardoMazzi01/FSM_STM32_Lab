@@ -24,7 +24,15 @@ Now, on the left list, click on "Connectivity", then "I2C1" and set it to "I2C".
 
 These two pins are for the LCD Screen.
 
-- Secondly, click the "PB7" pin and set it to "USART1_RX"; now click the "PB8" pin and select "USART1_TX". Now, on the lef list, click "Connectivity", "USART1" and select the "Asynchronous" mode. These pins are for the serial communication.
+- Secondly, click the "PB7" pin and set it to "USART1_RX"; now click the "PB8" pin and select "USART1_TX".
+
+![](https://github.com/RiccardoMazzi01/FSM_STM32_Lab/blob/main/images/usart_yellow.png)
+
+Now, on the lef list, click "Connectivity", "USART1" and select the "Asynchronous" mode.
+
+![](https://github.com/RiccardoMazzi01/FSM_STM32_Lab/blob/main/images/usart_green.png)
+
+These pins are for the serial communication.
 
 - Finally, on the left side of the board, click the "PC0" pin and set it to "GPIO_Output"; do the same thing also with "PC1" and "PC2" pins. these three pins are for the LEDs.
 
