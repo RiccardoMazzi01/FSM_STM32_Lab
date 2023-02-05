@@ -21,4 +21,4 @@ Now return to the "Automata_files" folder. In this folder you will find 2 sub-fo
 
 - "main.c" file: open the file in an editor; you'll see that there are two includes (#include "runtime.h", #include "FSM.h"): copy and paste them below the #include "main.h" into the "main.c" of your IDE project at this path "YOUR_PROJECT/Core/Src/main.c". After that, copy and paste the code between the "USER CODE BEGIN 2" and "USER CODE END 2" lines into the respective lines of the "main.c" of your project.
 
-Now your ready to go! Click the "Run" button and enjoy your semaphore!
+Now you're ready to go! Click the "Run" button and enjoy your semaphore!
