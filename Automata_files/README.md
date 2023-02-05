@@ -15,4 +15,6 @@ In this folder you will find 2 sub-folders and a "main.c" file:
 
 - "runtime" folder: you will se another folder called "STM32" and a file named "runtime.h"; move the "runtime.h" file in the "Inc" folder of your project ("YOUR_PROJECT/Core/Inc"). Now open the "STM32" folder; there will be 3 files: you have to move "runtime.c" and "liquidcrystal_i2c.c" in the "Src" folder ("YOUR_PROJECT/Core/Src"); then put the last file "liquidcrystal_i2c.h" in the "inc" folder ("YOUR_PROJECT/Core/Inc").
 
-- "main.c" file: 
+- "main.c" file: open the file in an editor; you'll see that there are two includes (#include "runtime.h", #include "FSM.h"): copy and paste them below the #include "main.h" into the "main.c" of your IDE project at this path "YOUR_PROJECT/Core/Src/main.c". After that, copy and paste the code between the "USER CODE BEGIN 2" and "USER CODE END 2" lines into the respective lines of the "main.c" of your project.
+
+Now your ready to go! Click the "Run" button and enjoy your semaphore!
